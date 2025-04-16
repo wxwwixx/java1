@@ -30,7 +30,7 @@ jobs:
         name: build-artifacts
         path: build/libs/**
 
-    - name: Run unit tests
+    - name: Run unit tests1
       run: gradle test
 
     - name: Upload Test Reports
